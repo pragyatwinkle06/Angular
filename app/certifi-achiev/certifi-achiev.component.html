@@ -1,0 +1,10 @@
+<div class="container">
+    <h1>Achievements</h1>
+
+
+   <section *ngFor="let a of achieve">
+    <h2>{{a.title}}</h2>
+    <ul *ngFor="let desc of a.description">
+        <li>{{desc}}</li></ul>
+   </section>
+</div>
